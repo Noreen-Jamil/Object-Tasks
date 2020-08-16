@@ -22,3 +22,6 @@ Question 4
 How will you access all elements of the following object using loops?
 
                       let obj = { name: "Maimoona", degree: "MBBS", age: 25 }
+                      Ans: for (const prop in obj) {
+                              console.log(`${prop} = ${obj[prop]}`);
+                            }
